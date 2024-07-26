@@ -1,0 +1,44 @@
+@import 'bootstrap'; /* clases de bootstrap */
+
+.container{
+    background-color: #4d5755;
+    border-radius: 2rem;
+}
+.container:hover{
+    box-shadow: 0 10px 80px black;
+    transform: translateY(-2%);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 119, 184);
+    border-radius: 2rem;
+
+}
+.nombre{
+    color:#eee;
+    display: flex;
+    justify-content: center;
+}
+.profesion{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    font-size: 3rem;
+    color: #eee;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.foto{
+    width: 60%;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.bi{
+    color: black;
+}

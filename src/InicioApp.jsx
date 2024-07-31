@@ -1,6 +1,7 @@
 // rafce
 
-import Tarjeta from "./components/Tarjeta"
+import Alerta from "./components/Alerta"
+
 
 
 //CONTENEDOR
@@ -9,9 +10,16 @@ const InicioApp = () => {
 
 
   return (
-    <div className="container mt-3 p-2">
-      
-      <Tarjeta nombre="Juan Ignacio Restrepo Restrepo" profesion='Electricista' foto='electricista.jpg' />
+    <div>
+      <Alerta tipo="success">
+        <h2>¡Operación exitosa!</h2>
+      </Alerta>
+      <Alerta tipo="warning">
+        <h2>¡Atención! Esto es una advertencia.</h2>
+      </Alerta>
+      <Alerta tipo="error">
+        <h2>¡Error! Algo salió mal.</h2>
+      </Alerta>
     </div>
   )
 }
